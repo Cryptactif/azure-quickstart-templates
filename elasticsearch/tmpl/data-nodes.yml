@@ -33,7 +33,7 @@ parameters:
       description: OS settings to deploy on
   dataDiskSize:
     type: int
-    defaultValue: 1023
+    defaultValue: 64
     metadata:
       description: Size of each data disk attached to data nodes in (Gb)
   namespace:
